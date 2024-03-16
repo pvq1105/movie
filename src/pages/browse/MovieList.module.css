@@ -1,0 +1,44 @@
+.movie-list {
+  background-color: rgb(17, 17, 17);
+}
+
+.movie-list__container {
+  display: flex;
+  overflow-x: auto; /* Tạo thanh cuộn ngang */
+}
+
+.movie-list__items {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Chia layout thành các cột có kích thước tối thiểu 200px và tự động điều chỉnh */
+  gap: 16px; /* Khoảng cách giữa các mục */
+  padding: 16px; /* Khoảng cách bên trong container */
+}
+
+.movie-list__item img {
+  width: 130px;
+  height: auto;
+  margin: 10px;
+}
+
+/* Khi rê chuột vào hình ảnh, thay đổi kích thước và thêm khoảng cách */
+/* Khi rê chuột vào hình ảnh, chỉ thay đổi kích thước của hình ảnh */
+.movie-list__item:hover img {
+  width: 135px;
+  height: auto;
+}
+
+.movie-list__container::-webkit-scrollbar {
+  width: 0.1px; /* Chiều rộng của thanh cuộn */
+  height: 5px;
+}
+
+.movie-list__container::-webkit-scrollbar-track {
+  background: rgb(17, 23, 26); /* Màu nền của thanh cuộn */
+}
+
+.movie-list__container::-webkit-scrollbar-thumb {
+  background-color: rgb(41, 41, 41); /* Màu của thanh cuộn */
+}

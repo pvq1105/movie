@@ -1,0 +1,25 @@
+.result-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.movie-item {
+  margin: 10px;
+}
+.movie-item img {
+  width: 120px;
+  height: auto;
+}
+.results {
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.results1 {
+  display: none;
+}
+
+.movie-image {
+  cursor: pointer;
+}

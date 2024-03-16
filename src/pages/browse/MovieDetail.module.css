@@ -1,0 +1,17 @@
+.moviedetail {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+}
+.content {
+  color: white;
+  margin-left: 20px;
+}
+.movieData-title {
+  width: 600px;
+  height: 60px;
+  border-bottom: 1px solid white;
+  margin-top: 30px;
+}
+.movieData-overview {
+  font-size: 12px;
+}

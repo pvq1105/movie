@@ -1,0 +1,29 @@
+.banner__button {
+  border: none;
+  background-color: rgb(127, 129, 133);
+  margin: 2px;
+  color: white;
+}
+.image {
+  width: 100%;
+  height: 400px;
+}
+.image1 {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.banner__buttons {
+  width: 500px;
+  margin-left: 25px;
+  color: white;
+  margin-top: -200px;
+  position: relative;
+  transform: translate(0%, -15%);
+}
+.title {
+  position: relative;
+  transform: translate(00%, -18%);
+  background-color: rgb(17, 17, 17);
+}

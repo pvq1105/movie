@@ -1,0 +1,33 @@
+.icon {
+  width: 30px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar_scroll {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100; /* Đảm bảo banner hiển thị trên tất cả các phần tử khác */
+  background-color: rgba(14, 13, 13, 0.8);
+}
+
+.link {
+  text-decoration: none;
+  color: red;
+  font-size: 18px;
+}

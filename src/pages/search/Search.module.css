@@ -1,0 +1,19 @@
+.search {
+  padding: auto;
+  background-color: rgb(17, 17, 17);
+  height: auto;
+}
+.search1 {
+  padding: auto;
+  background-color: rgb(17, 17, 17);
+  height: 350px;
+}
+.search-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+.resultList {
+  margin-top: 300px;
+}
